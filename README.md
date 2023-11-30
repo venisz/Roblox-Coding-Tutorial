@@ -50,5 +50,11 @@ local Players = game:GetService("Players")
 ```
 or
 ```
-game.Players.LocalPlayer
+local players = game.Players.LocalPlayer
 ```
+To get to the humanoid you can also do
+```
+local hum = game.Players.LocalPlayer.Character.Humanoid
+```
+
+Now since you know that for the challenge your gona make whenever u press e with userinputservice ur jump power goes to 100 and ur walkspeed to. Using Humanoid properties
