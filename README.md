@@ -25,3 +25,19 @@ Now since you're done with that its time for a diffrent subject
 
 
 # User-Input-Service
+Very sure this is even more simpilier than iv pairs for an example
+
+```
+local UIS = game:GetService("UserInputService")
+
+UIS.InputBegan:Connect(function(i)
+	if i.KeyCode == Enum.KeyCode.E then
+		game.Players.LocalPlayer:Destroy()
+	end
+end)
+```
+
+As you can see when you test it
+![image](https://github.com/venisz/Roblox-Coding-Tutorial/assets/82700599/69c679fe-65f6-4adc-bec5-1ffa35fe8399)
+
+You get kicked cause your player isint in the server anymore
