@@ -37,7 +37,7 @@ UIS.InputBegan:Connect(function(i)
 end)
 ```
 
-As you can see when you test it
+
 ![image](https://github.com/venisz/Roblox-Coding-Tutorial/assets/82700599/69c679fe-65f6-4adc-bec5-1ffa35fe8399)
 
-You get kicked cause your player isint in the server anymore
+As you can see when you test it you get kicked cause your player is removed
