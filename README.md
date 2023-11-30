@@ -44,3 +44,11 @@ end)
  As you can see when you test it you get kicked cause your player is removed
 
 # Players
+For getting players u can do a few diffrent ways like
+```
+local Players = game:GetService("Players")
+```
+or
+```
+game.Players.LocalPlayer
+```
