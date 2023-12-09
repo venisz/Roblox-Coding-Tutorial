@@ -48,7 +48,6 @@ end)
 For getting players u can do a few diffrent ways like
 ```
 local Players = game:GetService("Players")
---for server stuff
 ```
 or
 ```
